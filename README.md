@@ -1,6 +1,9 @@
 ArchivesSpace PUI Help Page Plugin
 ======================================
 
+Cloned from University of Oregon libraries and rewritten for Hagley...
+
+
 **Special thanks to Randy Kuehn from University of Louisville for writing and sharing this plugin!**
 
 This is a plugin that adds a Help page to the ArchivesSpace PUI. 
