@@ -2,12 +2,15 @@
 	<div class="col-sm-11 col-xs-12">
 <h1>Help</h1>
 <div id="help-menu">
-  <ul class="list-unstyled">
-    <li><a href="#search" class="underline">Using the search bar</a></li>
+  <ul style="list-style:circle;">
+	<li><a href="#intro">Before you begin</a></li>
+    <li><a href="#request" class="underline">Requesting materials</a></li>
+    <li><a href="#searchbar" class="underline">Using the search bar</a></li>
     <li><a href="#advanced" class="underline">Search phrasing and syntax</a></li>
     <li><a href="#filter" class="underline">Filtering search results</a></li>
     <li><a href="#accession-search" class="underline">Searching by accession number</a></li>
-    <li><a href="#request" class="underline">Requesting materials</a></li>
+	<li><a href="#findingaidview" class="underline">Finding Aid View</a></li>
+	<li><a href="#aspace" class="underline">About the database</a></li>
     <li><a href="#glossary" class="underline">Glossary of terms and symbols</a></li>
     <li><a href="#questions" class="underline">Still have questions?</a></li>
   </ul>
@@ -15,10 +18,16 @@
 
 <div id="intro">
 	<h2>Before you begin</h2>
-	<p>It is important to understand that searching Hagley’s finding aid database is not quite the same as searching with Google or another advanced search engine, even though they do share some of the same features. Use of certain query expansion techniques such as stemming are limited, while others such as spelling correction, synonyms, translations, and autocomplete are generally unavailable. Features such as natural language processing and machine learning are not supported by the finding aid database or other searchable repositories at Hagley. With this in mind, pay careful attention to how queries are entered and be prepared to vary your searches and browse through large result sets. Read the sections below for advice on structuring your search and filtering results. Visit our <a href="https://www.hagley.org/research/search-hagley-collections">Search Guide</a> for a complete listing of our online resources. For additional help, contact our reference archivists at <a href="mailto:askhagley@hagley.org">askhagley@hagley.org</a>.</p>
+	<p>Searching Hagley’s finding aid database is not the same as searching with Google or another advanced search engine, even though they do share some of the same features. Use of certain query expansion techniques such as stemming are limited, while others such as spelling correction, synonyms, translations, and autocomplete are generally unavailable. Features such as natural language processing and machine learning are not supported by the finding aid database or other searchable repositories at Hagley. With this in mind, pay careful attention to how queries are entered and be prepared to vary your searches and browse through large result sets. Use exact terms and phrases. Read the sections below for advice on structuring your search and filtering results.</p>
+	<p>Please note, findingaids.hagley.org is not a comprehensive listing of the resources available to researchers at Hagley. Visit our <a href="https://www.hagley.org/research/search-hagley-collections">Search Guide</a> for a complete listing of our online resources. For additional help, contact our reference archivists at <a href="mailto:askhagley@hagley.org">askhagley@hagley.org</a>.</p>
 </div>
-
-<div id="search">
+<div id="request">
+	<h2>Requesting materials</h2>
+	<p>Physical access to archival collections is limited to the grounds of Hagley Museum and Library. Researchers may access material within the reading rooms of the Library and Soda House buildings. For more information and to plan a visit, please see <a href="https://www.hagley.org/research/collections/researcher-services">Researcher Services</a>.</p>
+	<p>To request material from the archives, you can either click the Request button found in the upper right of collection and archival object pages, send an email to <a href="askhagley@hagley.org">askhagely@hagley.org</a>, or use the <a href="https://www.hagley.org/contact-us">contact us</a> form link. Be sure to provide the <strong>collection title</strong>, <strong>collection accession number or identifier</strong>, and <strong>box number</strong> of the archival material you would like to view. Materials can also be requested from the library <a href="http://h92010.eos-intl.net/H92010/OPAC/Index.aspx">catalog</a>. Please note that we are a non-circulating library. Books and other publications must also be viewed inside the reading rooms.</p>
+	<p>A large selection of items in the archival collections have been digitized. If material has been digitized, links to files in the Digital Archives may be found within the finding aid. You may also <a href="https://digital.hagley.org" target="_blank" alt="Hagley Digital Archives">search the Digital Archives</a>.</p>
+</div>
+<div id="searchbar">
 	<h2>Using the search bar</h2>
   <ul>
     <li>Begin a basic search by entering your search terms in the search bar. You may limit the search by searchable fields and date.</li>
@@ -27,41 +36,41 @@
 	 <li><strong>Keyword:</strong> Searches the entire text of the finding aid.</li>
 	<li><strong>Title:</strong> Searches titles of the materials described, including records, series, and files within collections. If you know the precise title of the material you’re looking for, searching by title can be very helpful.</li>
 	<li><strong>Creator:</strong> Searches names of the persons, families, and organizations who <em>created</em> the collections. To search names associated with collections who are not creators (such as related names or subjects as names) try using the keyword or subject fields.</li>
-	<li><strong>Subject:</strong> Searches by subject headings assigned to materials by archivists, e.g. <a href="/search?utf8=✓&op%5B%5D=&q%5B%5D="Gunpowder+industry"&field%5B%5D=subjects_text&from_year%5B%5D=&to_year%5B%5D=&commit=Search">"Gunpower Industry."</a> Common subjects searched by researchers at Hagley can be found at <a href="/static/html/frequent-topics">Frequently Used Topics</a>.</li>
+	<li><strong>Subject:</strong> Searches by subject headings assigned to materials by archivists, e.g. <a href="/search?utf8=✓&op%5B%5D=&q%5B%5D=%22Gunpowder+industry%22&field%5B%5D=subjects_text&from_year%5B%5D=&to_year%5B%5D=&commit=Search">"Gunpower Industry."</a> Common subjects searched by researchers at Hagley can be found at <a href="/static/html/frequent-topics">Frequently Used Topics</a>.</li>
 	<li><strong>Notes:</strong> Searches all "note" fields, including: abstract, historical and biographical, scope and content, arrangement, accession restrictions, and related materials.</li>
 	<li><strong>Accession#:</strong> Searches collection records by accession number. An accession number is an identifier assigned to a collection at the time of acquisition.</li>
       </ul>
     </li>
-    <!--<li>Record types allow you to customize the type of records you want a search to return:
-      <ul>
-        <li>Limit to collections will only return records for collections, rather than people, subjects, series, and files.</li>
-     </ul> -->
     </li>
+	</ul>
+	<h3 style="text-align:center;">Advanced Search</h3>
+	<ul>
+	<li>The advanced search page contains a handful of additional options to allow you to expand your search</li>
+	<li>Limit by record type allows you to limit the search results to collection records. The results will not include names, subjects, series, or files - though collection records containing these types of records that match the search query may be returned.</li> 
     <li>You may select a date range to limit the search results chronologically. Searching by date is approximate, and results may fall outside the date range you enter.</li>
     <li>You may construct a more complex search by selecting the + icon and adding additional search parameters. Remove rows of search parameters by selecting the - icon.</li>
   </ul>
-</div>
-
 <div id="advanced">
 	<h2>Search phrasing and syntax</h2>
   <ul>
-    <li>Searches are not case sensitive.</li>
+    <li>Searches are not case sensitive. However, search operators <strong>OR</strong> and <strong>AND</strong> must have all letters capitilized to include explicitly in the query.</li>
     <li>Search for exact phrases by including quotation marks (e.g. "philadelphia railroad").</li>
-    <li>You may add a tilde (~) to exact phrase searches to expand the query to find the terms within a specified number of words of one another (e.g. "dupont employee"~5 will return results where the term 'dupont' occurs within five words of the term 'employee').</li>
     <li>Phrases without quotations will automatically be ANDed (e.g. <em>philadelphia railroad</em> becomes philadelphia AND railroad). This will return results where both terms appear; however, results where terms appear in close proximity will be ranked higher in the results. </li>
-    <li>Automatic ANDing of search terms can be overridden by expanding the search bar with the + icon and selecting 'OR', or by simply separating terms by typing 'or' between them in the search bar. 
-      <li>To exclude terms from the search, select the + icon and select 'NOT' or put a '-' before your term (e.g. <em>dupont -powder</em> returns results for dupont excluding records containing powder)</li>
+    <li>Automatic ANDing of search terms can be overridden by expanding the search bar on the Advanced Search apge with the + icon and selecting 'OR', or by simply separating terms by typing 'OR' between them in the search bar. </li>
+    <li>To exclude terms from the search, on the Advanced Search page select the + icon and select 'NOT', or simply put a '-' before your term (e.g. <em>dupont -powder</em> returns results for dupont excluding records containing powder).</li>
+	<li>You may add a tilde (~) to exact phrase searches to expand the query to find the terms within a specified number of words of one another (e.g. "dupont employee"~5 will return results where the term 'dupont' occurs within five words of the term 'employee').</li>
     <li>Wildcard symbols ? and * help return a greater number of relevant results by searching for variant spellings and forms of search terms simultaneously.
       <ul>
         <li>? replaces a single letter in a search term (e.g. searching <em>bo?t</em> will match boat, boot, bolt, etc).</li>
         <li>* replaces any number of letters at the end of a search term (e.g. searching <em>machin*</em> will match machine, machninist, machinery, etc). </li>
         <li>? and * may <strong>not</strong> be used as the first character of a word. </li>
         <li>To use a wildcard in combination with another search term (e.g. <em>wom?n suffrage</em>), use the + icon to create another row and enter each search term in a separate row.</li>
+		<li><strong>Note: </strong>Wildcard symbols may not work when searching Accession Numbers.</li>
       </ul>
     </li>
   </ul>
+ </div>
 </div>
-
 <div id="filter">
 	<h2>Filtering search results</h2>
   <ul>
@@ -76,8 +85,8 @@
 <ul>
 	<li>Enter the identifying number into the search bar and select &ldquo;Accession#&rdquo;from the dropdown.&nbsp;</li>
 	<ul>
-		<li>If a number has multiple parts be sure to use either a dash (2021-203) or a space (2021 203) to separate them. Any other punctuation or a joining of the parts will result in zero hits.</li>
-                <li>Searching with Accession# selected in the dropdown will retrieve <strong>collection-level records only</strong>. Component records and other data associated with the number will not be searched. <a href="#accession-search-component">To retrieve all record types select Keyword instead</a>.</li>
+		<li>If a number has multiple parts be sure to use a dash (2021-203) to separate them. Any other punctuation or a joining of the parts will result in zero hits. The value of the search accession must be exact. </li>
+                <li>Searching with Accession# selected in the dropdown will retrieve <strong>collection-level records only</strong>. Component records and other data associated with the number will not be searched. </li>
 	</ul>
 	<li>Collection records can also be located by appending the accession number to the end of the <a href="https://findingaids.hagley.org" target="_blank" rel="noopener">https://findingaids.hagley.org</a>/ URL.</li>
 	<ul>
@@ -104,29 +113,17 @@
 		<li>Note: Recently published collections may not be immediately available by this method.</li>
 	</ul>
 </ul>
-<div id="accession-search-component"><p>If you wish to perform a <em>broad </em>search that will retrieve component records:</p>
-<ul>
-	<li>Enter the identifying number into the search bar and select &ldquo;Keyword&rdquo;from the dropdown.&nbsp;</li>
-	<ul>
-		<li>If a number has multiple parts be sure to use either a dash (2021-203) or a space (2021 203) to separate them. A period can be used but will often retrieve only the collection-level record.</li>
-		<li>The relevancy of the search results cannot be guaranteed. Many of the retrieved records may be unrelated to the targeted collection. This is especially true if the Accession Number has a common date or number string present in the database.&nbsp;</li>
-		<ul>
-			<li>For example, a <a href="https://findingaids.hagley.org/search?utf8=%E2%9C%93&amp;op%5B%5D=&amp;q%5B%5D=2753&amp;commit=Search&amp;field%5B%5D=&amp;from_year%5B%5D=&amp;to_year%5B%5D=" target="_blank" rel="noopener">search of the Accession Number &ldquo;2753&rdquo;</a>, locates desired records but the targeted collection does not rank first in the search results. This is common.</li>
-		</ul>
-		<li>In addition to component records, subject and name records may also be retrieved.</li>
-	</ul>
-        <li>You may find it more advantageous to locate the collection record landing page and then search from within this collection using the <em>Search Collection </em>search bar located under the <strong>What&rsquo;s in this Collection heading</strong>.</li>
-</ul></div>
 </div>
 
-<div id="request">
-	<h2>Requesting materials</h2>
-	<p>Physical access to archival collections is limited to the grounds of Hagley Museum and Library. Researchers may access material within the reading rooms of the Library and Soda House buildings. For more information and to plan a visit, please see <a href="https://www.hagley.org/research/collections/researcher-services">Researcher Services</a>.</p>
-	<p>To request material from the archives, click the Request button found in the upper right of collection and archival object pages, send an email to <a href="askhagley@hagley.org">askhagely@hagley.org</a>, or use the <a href="https://www.hagley.org/contact-us">contact us</a> form link. Be sure to provide the <strong>collection title</strong>, <strong>accession number or identifier</strong>, and <strong>box number</strong>. Materials can also be requested from the library <a href="http://h92010.eos-intl.net/H92010/OPAC/Index.aspx">catalog</a>. Please note that we are a non-circulating library. Books and other publications must also be viewed inside the reading rooms.</p>
-	<p>A large selection of items in the archival collections have been digitized. If material has been digitized, links to files in the Digital Archives may be found within the finding aid. You may also <a href="https://digital.hagley.org" target="_blank" alt="Hagley Digital Archives">search the Digital Archives</a>.</p>
-<!-- <p>To request materials, please select the “Request” button at the top of the finding aid page and fill out the form.</p>
-<img src="assets/images/request.png" alt="Request icon" style="padding-bottom:1em;"/> -->
+<div id="findingaidview">
+	<h2>Finding Aid View</h2>
+	<p>Collections that have processed and published components have an option to display the Finding Aid View. This page expands upon the collapsible tree listing of the record components by providing a more comprehensive view of the organization and arrangement of the collection.</p>
+	<p>Many archival collections at Hagley are quite large with some containing hundreds of linear feet. As a result, using finding aid view can require the retrieval and rendering of many thousands of detailed component records on a single webpage. This may result in stress on both our server and the browser you are using to view the page. If you are experiencing difficulty loading the finding aid view of a collection, we strongly recommend using the PDF finding aid or searching within a collection from the collection organization sidebar on each collection's landing page.</p>
 </div>
+<div id="aspace"><h2>About the database</h2>
+<p>FindingAids.Hagley.org is built with ArchivesSpace, a community-supported open source archives information management application for managing and providing web access to archives and manuscripts. Visit <a href="https://archivesspace.org" target="_blank">ArchivesSpace.org</a> for more information.</a></p>
+</div> 
+
 
 <div id="glossary">
 	<h2>Glossary of terms and symbols</h2>
@@ -139,16 +136,7 @@
 			<li><strong class="term">Name records</strong> are the people, families, and organizations that create collections. In this database, users can view name records to see all of the materials associated with a person, family, or organization, as well as additional information such as related names and suchject.</li>
 			<li><i class="fa fa-tag"></i> <strong class="term">Subject records</strong> are topics, places, and genres used to describe the context and content of the materials. On this website, users can view a subject record to see all of the collections relating to that topic, place, or genre.</li>
 			<li><strong class="term">Frequently Used Topics</strong> is a page curated by Hagley archivists and reference staff containing links to Name and Subject records that are popular among researchers at Hagley.</li>
- <!-- <p>
-      <img src="assets/images/request.png" alt="Request icon"/>
-      <br/>
-  Use the <strong>Request</strong> button to place a request for the selected material. For more information about requesting material, see the requesting materials section above.</p>
-<br/>
-  <p>
-      <img src="assets/images/citation.png" alt="Preferred citation"/>
-      <br/>
-    Use the <strong>Citation</strong> button to generate a formatted citation for the material you are viewing. Citations can be generated at all levels of a finding aid, including at the folder or item level. Consult the citation style for your academic discipline.</p>
-  <br/> -->
+
   <li><span>Use the <strong class="term">PDF Finding Aid</strong> button to access a fully formatted PDF of a finding aid.</span><ul><li><img src="assets/images/pdf.png" alt="Download PDF icon"/></li></ul> </li>
 	</ul>
 </div>
